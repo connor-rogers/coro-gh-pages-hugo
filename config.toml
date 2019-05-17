@@ -1,0 +1,72 @@
+baseURL                   = "https://coro.dev"
+builddrafts                = false
+languageCode               = "en-gb"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+summaryLength              = 200
+Paginate                   = 3
+
+theme                      = "AllinOne"
+title                      = "Connor Rogers - London, UK"
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+blog                     = "blog/:year-:month/:slug/"
+
+
+[taxonomies]
+tag                      = "tags"
+series                   = "series"
+category                 = "categories"
+
+
+#[menu]
+#[[menu.main]]
+#name                   = "Blog"
+#weight                 = -120
+#identifier             = "blog"
+#url                    = "blog/"
+
+#[[menu.main]]
+#name                   = "About"
+#weight                 = -100
+#identifier             = "about"
+#url                    = "about/"
+
+
+
+[params]
+#faviconfile              = "img/zheng.png"               # from static/
+avatar                   = "img/profile.jpg"             # path to image in static dir e.g img/avatar.png
+author                   = "Connor Rogers"
+description              = ["Software Engineer", "London, UK"]           # appears in the site header when set to a non-empty string
+welcome_head             = "Work In Progress"
+welcome_word             = "Site under construction..."
+
+latestpostscount         = 5                             # how many posts to display on the home page
+bloggroupby              = 'month'
+dateform                 = "Jan 2, 2006"
+dateformfull             = "2006-01-02  Monday  15:04:05"
+noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+# slides
+slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)
+slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+
+# highlighting
+highlightjs              = true
+
+# latex
+katex                    = true
+
+# links
+email                    = "connor.rogers32@gmail.com"
+github                   = "//github.com/connor-rogers"
+linkedin                 = "//linkedin.com/in/connor-rogers-0b258b95"
+twitter                  = "//twitter.com/corodotdev"
+
