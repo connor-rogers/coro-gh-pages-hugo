@@ -2,3 +2,7 @@
 	path = themes/AllinOne
 	url = git@github.com:orianna-zzo/AllinOne.git
 	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:connor-rogers/connor-rogers.github.io
+	branch = staging
