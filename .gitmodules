@@ -1,7 +1,3 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:connor-rogers/connor-rogers.github.io
-	branch = staging
 [submodule "themes/AllinOne"]
 	path = themes/AllinOne
 	url = git@github.com:orianna-zzo/AllinOne.git
