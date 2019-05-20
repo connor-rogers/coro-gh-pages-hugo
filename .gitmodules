@@ -4,5 +4,5 @@
 	branch = master
 [submodule "public"]
 	path = public
-	url = git@github.com:connor-rogers/connor-rogers.github.io
+	url = git@github.com:coro/coro.github.io
 	branch = staging
