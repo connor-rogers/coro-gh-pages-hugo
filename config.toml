@@ -8,6 +8,7 @@ publishdir                 = "public"
 enableEmoji                = true
 summaryLength              = 200
 Paginate                   = 3
+enableRobotsTXT            = true
 
 theme                      = "AllinOne"
 title                      = "Connor Rogers - London, UK"
